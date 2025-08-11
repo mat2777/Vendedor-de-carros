@@ -316,6 +316,11 @@ transition: background 0.3s;
 background-color: #ee005f;
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
 
 /* SELETORES AVANÇADOS PARA SEREM USADOS
 
