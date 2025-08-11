@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .produto {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .produto:hover {
+            transform: scale(1.03);
+        }
+
+        .produto img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .info h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .preco {
+            font-size: 20px;
+            color: #e60000;
+            margin-bottom: 10px;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #e60000;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .botao:hover {
+            background-color: #b30000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Catálogo de Produtos</h1>
+    </header>
+
+    <section class="catalogo">
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/250x200" alt="Produto 1">
+            <div class="info">
+                <h2>Produto 1</h2>
+                <p class="preco">R$ 99,90</p>
+                <a href="#" class="botao">Comprar</a>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/250x200" alt="Produto 2">
+            <div class="info">
+                <h2>Produto 2</h2>
+                <p class="preco">R$ 149,90</p>
+                <a href="#" class="botao">Comprar</a>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/250x200" alt="Produto 3">
+            <div class="info">
+                <h2>Produto 3</h2>
+                <p class="preco">R$ 79,90</p>
+                <a href="#" class="botao">Comprar</a>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
