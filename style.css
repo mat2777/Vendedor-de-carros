@@ -73,7 +73,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: #ee005f;
     text-decoration: underline;
 }
 
@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 .produtos li:hover {
-    border-color: #C78C19;
+    border-color: #ee005f;
 }
 
 .produtos li:active {
@@ -207,7 +207,7 @@ footer {
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background: orange;
+    background: #ee005f;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -218,7 +218,7 @@ footer {
 }
 
 .enviar:hover {
-    background: darkorange;
+    background: #b00047;
     transform: scale(1.2);
 }
 
@@ -259,6 +259,61 @@ th {
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+.catalogo {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.produto {
+background: white;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+overflow: hidden;
+transition: transform 0.2s;
+}
+
+.produto:hover {
+transform: scale(1.03);
+}
+
+.produto img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.info {
+padding: 15px;
+text-align: center;
+}
+
+.info h2 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.preco {
+font-size: 20px;
+color: #ee005f;
+margin-bottom: 10px;
+}
+
+.botao {
+display: inline-block;
+background-color: #ee005f;
+color: white;
+padding: 10px 15px;
+border-radius: 5px;
+text-decoration: none;
+transition: background 0.3s;
+}
+
+.botao:hover {
+background-color: #ee005f;
 }
 
 
@@ -308,4 +363,3 @@ img ~ p {
     .imagem-beneficios {
         width: 100%;
     }
-}
