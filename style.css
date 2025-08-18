@@ -1,3 +1,14 @@
+:root {
+    /* cores personalizadas */
+    --cor-principal: #ff0000;
+    --cor-rosa: #ee005f;
+    --cor-roxo: #b62a8f;
+    --cor-cinza: #2f4858;
+    --cor-azulescuro: #325082;
+    --cor-branco: #ffffff;
+    --cor-preto: #000000;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -153,7 +164,7 @@ main {}
 }
 
 .imagem-beneficios {
-    width: 30%;
+    width: 40%;
     opacity: 1;
     transition: 400ms;
     box-shadow: 10px 10px 10px 0 #000000;
