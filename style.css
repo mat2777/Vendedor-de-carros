@@ -1,7 +1,7 @@
 :root {
     /* cores personalizadas */
-    --cor-principal: #ff0000;
-    --cor-rosa: #ee005f;
+    --cor-principal: #ee005f;
+    --cor-vermelha: #ff0000;
     --cor-roxo: #b62a8f;
     --cor-cinza: #2f4858;
     --cor-azulescuro: #325082;
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: #2f4858;
+    background:var(--cor-cinza);
     padding: 20px 0;
 }
 
@@ -31,7 +31,7 @@ header {
 
 .principal {
     padding: 3em 0;
-    background: #FEFEFE;
+    background:var(--cor-branco);
     width: 940px;
     margin: 0 auto;
 }
@@ -77,14 +77,14 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: var(--cor-preto);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #ee005f;
+    color: var(--cor-principal);
     text-decoration: underline;
 }
 
@@ -107,11 +107,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-    border-color: #ee005f;
+    border-color: var(--cor-principal);
 }
 
 .produtos li:active {
-    border-color: #088C19;
+    border-color: var(--cor-roxo);
 }
 
 .produtos h2 {
@@ -137,7 +137,7 @@ main {}
 
 .beneficios {
     padding: 3em 0;
-    background: #888888;
+    background: var(--cor-cinza);
 }
 
 .conteudo-beneficios {
@@ -167,7 +167,7 @@ main {}
     width: 40%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 10px 0 #000000;
+    box-shadow: 10px 10px 10px 0 var(--cor-preto);
 }
 
 .imagem-beneficios:hover {
@@ -210,7 +210,7 @@ footer {
 }
 
 .copyright {
-    color: #FFFFFF;
+    color: var(--cor-branco);
     font-size: 13px;
     margin: 20px 0 0;
 }
@@ -218,8 +218,8 @@ footer {
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background: #ee005f;
-    color: white;
+    background: var(--cor-principal);
+    color: var(--cor-branco);
     font-weight: bold;
     font-size: 18px;
     border: none;
@@ -238,14 +238,14 @@ table {
 }
 
 thead {
-    background: #555555;
-    color: white;
+    background: var(--cor-cinza);
+    color: var(--cor-branco);
     font-weight: bold;
 }
 
 td,
 th {
-    border: 1px solid #000000;
+    border: 1px solid var(--cor-preto);
     padding: 8px 15px;
 }
 
@@ -280,7 +280,7 @@ padding: 20px;
 }
 
 .produto {
-background: white;
+background: var(--cor-branco);
 border-radius: 8px;
 box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 overflow: hidden;
@@ -309,13 +309,13 @@ margin-bottom: 10px;
 
 .preco {
 font-size: 20px;
-color: #ee005f;
+color: var(--cor-principal);
 margin-bottom: 10px;
 }
 
 .botao {
 display: inline-block;
-background-color: #ee005f;
+background-color: var(--cor-principal);
 color: white;
 padding: 10px 15px;
 border-radius: 5px;
@@ -324,7 +324,7 @@ transition: background 0.3s;
 }
 
 .botao:hover {
-background-color: #ee005f;
+background-color: var(--cor-principal);
 }
 
 a {
