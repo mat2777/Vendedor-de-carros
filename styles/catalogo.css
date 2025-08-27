@@ -1,0 +1,36 @@
+.catalogo {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.info {
+padding: 15px;
+text-align: center;
+}
+
+.info h2 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.preco {
+font-size: 20px;
+color: var(--cor-principal);
+margin-bottom: 10px;
+}
+
+.botao {
+display: inline-block;
+background-color: var(--cor-principal);
+color: white;
+padding: 10px 15px;
+border-radius: 5px;
+text-decoration: none;
+transition: background 0.3s;
+}
+
+.botao:hover {
+background-color: var(--cor-principal);
+}
