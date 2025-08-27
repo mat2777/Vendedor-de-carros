@@ -1,3 +1,6 @@
+@import url(/styles/footer.css);
+@import url(styles/header.css);
+
 :root {
     /* cores personalizadas */
     --cor-principal: #ee005f;
@@ -13,10 +16,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    background:var(--cor-cinza);
-    padding: 20px 0;
-}
+
 
 .banner {
     width: 100%;
@@ -58,35 +58,9 @@ header {
     width: 60%;
 }
 
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
 
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
 
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
 
-nav a {
-    text-transform: uppercase;
-    color: var(--cor-preto);
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: var(--cor-principal);
-    text-decoration: underline;
-}
 
 .produtos {
     width: 940px;
@@ -220,17 +194,9 @@ main {}
     margin: 20px 0;
 }
 
-footer {
-    text-align: center;
-    background: url("img/bg.jpg");
-    padding: 40px 0;
-}
 
-.copyright {
-    color: var(--cor-branco);
-    font-size: 13px;
-    margin: 20px 0 0;
-}
+
+
 
 .enviar {
     width: 40%;
