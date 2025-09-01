@@ -61,9 +61,14 @@ nav a:hover {
     #nome_empresa {
         display: flex;
     }
-
     
 }
 
 /* Estilização para Desktop (telas maiores)   */
 @media screen and (min-width: 1080px) {
+    .header-logo {
+        width: 250px;
+    margin-right: 10px;
+
+    }
+}
