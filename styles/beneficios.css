@@ -1,14 +1,16 @@
+/* Estilização para telas menores */
 .beneficios {
     padding: 3em 0;
-    background: var(--cor-cinza);
+    background: var(--cor-secundaria);
 }
 
 .conteudo-beneficios {
-    width: 640px;
-    margin: 0 auto;
+    flex-direction: column;
+    width: auto;
 }
 
 .lista-beneficios {
+    list-style: none;
     width: 40%;
     display: inline-block;
     vertical-align: top;
@@ -23,11 +25,11 @@
 }
 
 .itens:before {
-    content: "✔️";
+    content: "✓";
 }
 
 .imagem-beneficios {
-    width: 40%;
+    width: 60%;
     opacity: 1;
     transition: 400ms;
     box-shadow: 10px 10px 10px 0 var(--cor-preto);
@@ -37,11 +39,21 @@
     opacity: 0.3;
 }
 
-.imagembeneficios {
-    width: 60%;
-}
-
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (min-width: 480px) {
+    .conteudo-beneficios {
+       display: flex;
+       width: 640px;
+       align-items: center;
+       gap: 20px;
+       margin: 0 auto;
+    }
+
+    .imagembeneficios {
+        width: 60%;
+    }
 }
