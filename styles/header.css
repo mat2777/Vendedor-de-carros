@@ -73,6 +73,13 @@ nav a:hover {
     
 }
 
+@media screen and (min-width: 645px) {
+    nav ul {
+        display: inline;
+    }
+    
+}
+
 /* Estilização para Desktop (telas maiores)   */
 @media screen and (min-width: 1080px) {
     .header-logo {
