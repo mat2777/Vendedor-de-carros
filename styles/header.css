@@ -61,6 +61,9 @@ nav a:hover {
     #nome_empresa {
         display: flex;
     }
+    nav ul{
+        display: inline;
+    }
     
 }
 
