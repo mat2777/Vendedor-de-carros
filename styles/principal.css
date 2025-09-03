@@ -13,6 +13,7 @@
 }
 
 .principal p {
+    color: #ff0000;
     margin: 0 0 1em;
 }
 
@@ -28,8 +29,4 @@
     width: calc(30% - 26px);
     float: left;
     margin: 0 20px 0;
-}
-
-#missão{
-    text-decoration: #ff0000;
 }
