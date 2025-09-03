@@ -50,6 +50,7 @@ body {
     .imagem-beneficios {
         width: 100%;
     }
+}
 
 /*SELETORES AVANÇADOS PARA SEREM USADOS
 
@@ -76,8 +77,8 @@ img ~ p {
 
 @media screen and (max-width: 480px) {
 
-    .caixa,
-    .principal,
+    
+    
     .conteudo-beneficios,
     .mapa-conteudo,
     .video {
