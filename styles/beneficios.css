@@ -5,8 +5,10 @@
 }
 
 .conteudo-beneficios {
+    display: flex;
     flex-direction: column;
     width: auto;
+    align-items: center;
 }
 
 .lista-beneficios {
@@ -46,8 +48,6 @@
 
 @media screen and (min-width: 480px) {
     .conteudo-beneficios {
-       display: flex;
-       align-items: center;
        gap: 20px;
        margin: 0 auto;
     }
