@@ -1,7 +1,7 @@
 /* Estilização para telas menores */
 .beneficios {
     padding: 3em 0;
-    background: var(--cor-secundaria);
+    background: var(--cor-azulescuro);
 }
 
 .conteudo-beneficios {
