@@ -28,7 +28,7 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
 
     .caixa,
     .principal,
@@ -52,7 +52,7 @@ body {
     }
 }
 
-/*SELETORES AVANÇADOS PARA SEREM USADOS
+SELETORES AVANÇADOS PARA SEREM USADOS
 
 main p {
     background: red;
